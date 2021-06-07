@@ -569,3 +569,9 @@ p{
 		font-size: 12px !important;
 	}
 }
+@media screen and (max-width: 570px) {
+	.cImg{
+		width: 100px !important;
+		margin-left: 33%;
+	}
+}
