@@ -82,6 +82,20 @@ border: none;
   border-radius:0;
   transition:background 0.20s linear;
 }
+.rqBtn:hover{
+    background-color: #68ffa5 !important;
+}
+.vpBtn{
+    background-color: #1c3a54 !important;
+}
+.vpBtn:hover{
+    color: navy !important;
+    background-color: #264e72 !important;
+}
+ .vpBtn:hover a{
+    color: white !important;
+}
+
 </style>
 </head>
 <body> 
@@ -120,8 +134,8 @@ border: none;
                                 <a class="nav-link" href="login.html">Log In</a>
                             </li>
                             <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                <a class="nav-link" href="login.html">
-                                <button type="button" class="btn btn-outline-dark">Retrieve Quotes</button>
+                                <a class="nav-link" href="login.html" style="margin-top: -5px;">
+                                <button type="button" class="btn btn-outline-dark ">Retrieve Quotes</button>
                                 </a>
                             </li>
                         </ul>
@@ -134,11 +148,14 @@ border: none;
 </div>
 <br><br><br><br>
 <!-- Header Portion -->
-<div class="container-fuild" style="background-image: url(imgs/forGarageNew-bg.jpg); height: auto;background-size: cover;width: 100%; padding: 10%;">
+<div class="container-fuild" style="background-image: url(imgs/Service-bg.jpg); height: 103%;background-size: cover;width: 100%; padding: 10%;">
     <div class="container" style="text-align: center;">
+        
 <div class="row">
     <div class="col-12 col-sm-12 col-md-6">
-        <h3 style="color: white; text-align: left;"><b>Join the UK's largest work provider</b></h3 style="color: white;">
+        <h3 style="color: white; text-align: left;">
+            <br>
+            <b>Join the UK's largest work provider</b></h3 style="color: white;">
             <h4 style="color: white; text-align: left;">Fill your booking calendar for<span style="color: rgb(37, 250, 37); font-weight: 700;">£249.99</span>  a<br> year <b>(just £20.84 a month)</b></h4>
             <p style="text-align: left; color: white;">
                 Unlimited quoting, time saving automation and access to over 2,000,000 drivers. WhoCanFixMyCar.com brings garages work and growth. See
@@ -146,19 +163,21 @@ border: none;
             </p>
             <br>
             <div class="row">
-                <div class="col-12 col-md-6 col-sm-12">
-                    <button class="btn btn-primary" style="box-shadow: 0px -1px 3px 1px black ;width: 90%; color: navy; background-color: rgb(37, 250, 37); border:0px;">
-                        <b>Create a Free Account</b>
+                <div class="col-12 col-md-4 col-sm-12">
+                    <button class="btn btn-primary rqBtn" style="box-shadow: 0px 2px 3px 1px grey;border-radius: 5px;  background-color: rgb(37, 250, 126); border:0px;">
+                       <a href="signUp.html" style="font-size: 14px; color: navy;font-weight: 700 !important;"> <b>Create Free Account</b></a>
                     </button>
                 </div>
-                <div class="col-12 col-md-6 col-sm-12">
-                    <button class="btn btn-primary" style="box-shadow: 0px -1px 3px 1px black ;width: 90%; color: navy; background-color: rgb(36, 40, 107); color: white; border:0px;">
-                        Request Call Back             </button>
-                </div>
+                <div class="col-12 col-md-4 col-sm-12">
+                    <button class="btn btn-primary vpBtn" style="box-shadow: 0px 2px 3px 1px grey;border-radius: 5px; background-color: rgb(36, 40, 107);  border:0px;">
+                        <a href="login.html" style="color: white !important;font-size: 14px; color: navy;font-weight: 700 !important;">     Request Call Back             </button>
+                        </a>
+                    </div>
             </div>
     </div>
     <div class="col-12 col-sm-12 col-md-1"></div>
     <div class="col-12 col-sm-12 col-md-5">
+        <br>
         <img src="imgs/forGarage-bg-col.png" style="width: 70%;" alt="">
     </div>
 </div>
@@ -168,9 +187,11 @@ border: none;
     
 </div>
 <div class="container-fluid text-center" style="background-color:#263139; ">
-
+   
     <div class="container">
+        
       <div class="row">
+          
         <div class="col-md-2 col-sm-12">
       <img src="images/ft.png" class="img-fluid">
       </div>
@@ -198,25 +219,25 @@ border: none;
 
 <div class="container">
     <br><br>
-    <h4>How does OTTO'S MECHANICS work?</h4>
+    <h4><b>How does OTTO'S MECHANICS work?</b></h4>
     <br>
     <br>
     <div class="row" style=" display: flex;justify-content: center;">
-        <div class="col-12 col-md-2 col-sm-12" style="background-color: rgb(47, 144, 255); padding: 20px;   margin: 1%; box-shadow: 0px 2px 3px 1px rgb(31, 31, 31); ">
+        <div class="col-12 col-md-2 col-sm-12" style="background-color: rgb(47, 144, 255); padding: 20px;   margin: 1%; box-shadow: 0px 2px 3px 1px rgb(163, 163, 163); ">
             <h4 style="color: white !important;"><b>Find</b></h4>
-            <p style="text-align: left;color: white !important; font-size: 18px;">Drivers from around the UK post repair and service jobs.</p>
+            <p style="text-align: left;color: white !important; font-size: 14px;">Drivers from around the UK post repair and service jobs.</p>
         </div>
-        <div class="col-12 col-md-2 col-sm-12" style="background-color: rgb(228, 228, 228); padding: 20px; margin: 1%; box-shadow: 0px 2px 3px 1px rgb(31, 31, 31);">
+        <div class="col-12 col-md-2 col-sm-12" style="background-color: rgb(241, 241, 241); padding: 20px; margin: 1%; box-shadow: 0px 2px 3px 1px rgb(163, 163, 163);">
             <h4 style="color: #000 !important;"><b>Quote</b></h4>
-            <p style="text-align: left;color: #000 !important; font-size: 18px;">You send out bespoke and automated quotes.</p>
+            <p style="text-align: left;color: #000 !important; font-size: 14px;">You send out bespoke and automated quotes.</p>
         </div>
-        <div class="col-12 col-md-2 col-sm-12" style="background-color: rgb(228, 228, 228); padding: 20px; margin: 1%; box-shadow: 0px 2px 3px 1px rgb(31, 31, 31);">
+        <div class="col-12 col-md-2 col-sm-12" style="background-color: rgb(241, 241, 241); padding: 20px; margin: 1%; box-shadow: 0px 2px 3px 1px rgb(163, 163, 163);">
             <h4 style="color: #000 !important;"><b>Book</b></h4>
-            <p style="text-align: left;color: #000 !important; font-size: 18px;">The driver then accepts your quote and books in.</p>
+            <p style="text-align: left;color: #000 !important; font-size: 14px;">The driver then accepts your quote and books in.</p>
         </div>
-        <div class="col-12 col-md-2 col-sm-12" style="background-color: rgb(228, 228, 228); padding: 20px; margin: 1%; box-shadow: 0px 2px 3px 1px rgb(31, 31, 31);">
+        <div class="col-12 col-md-2 col-sm-12" style="background-color: rgb(241, 241, 241); padding: 20px; margin: 1%; box-shadow: 0px 2px 3px 1px rgb(163, 163, 163);">
             <h4 style="color: #000 !important;"><b>Review</b></h4>
-            <p style="text-align: left;color: #000 !important; font-size: 18px;">You do the work & the driver pays and leaves you a review.</p>
+            <p style="text-align: left;color: #000 !important; font-size: 14px;">You do the work & the driver pays and leaves you a review.</p>
         </div>
     </div>
 <br><br>
@@ -397,7 +418,7 @@ border: none;
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 col-sm-12">
-                <h4>How do we grow your garage?</h4>
+                <h4><b>How do we grow your garage?</b></h4>
                 <p style="text-align: left;">We're not just here to help you find work - we want garages to grow and continue to benefit throughout the lifetime of their WCFMC account.</p style="text-align: left;">
                
             </div>
@@ -406,27 +427,27 @@ border: none;
         <br>
         <div class="row">
             <div class="col-12 col-md-3 col-sm-12">
-                <h4>New work finds you</h4>
-                <img src="imgs/tools.png" alt="" style="margin: 50px;">
+                <h5>New work finds you</h5>
+                <img src="imgs/tools.png" alt="" style="margin: 50px; width: 50%%;">
                 <p style="text-align: left;">Quote on as much work as you want from the thousands of drivers in your area.</p>
             </div>
             <div class="col-12 col-md-3 col-sm-12">
-                <h4>Become more visible</h4>
-                <img src="imgs/location.png" alt="" style="margin: 50px;">
+                <h5>Become more visible</h5>
+                <img src="imgs/location.png" alt="" style="margin: 50px; width: 50%%;">
                 <p style="text-align: left;">Boost your presence with a profile, reviews, specialist repair badges and join industry bodies.</p>
             </div>
             <div class="col-12 col-md-3 col-sm-12">
-                <h4>Save time everyday
-                </h4>
-                <img src="imgs/calendar.png" alt="" style="margin: 50px;">
+                <h5>Save time everyday
+                </h5>
+                <img src="imgs/calendar.png" alt="" style="margin: 50px; width: 50%%;">
                 <p style="text-align: left;">Our system is designed to give you free time so you can do what makes you money; work on cars
 
                     .</p>
             </div>
             <div class="col-12 col-md-3 col-sm-12">
-                <h4>Connect with brands
-                </h4>
-                <img src="imgs/connection.png" alt="" style="margin: 50px;">
+                <h5>Connect with brands
+                </h5>
+                <img src="imgs/connection.png" alt="" style="margin: 50px; width: 50%%;">
                 <p style="text-align: left;">Gain access to massive brands, join work providing networks and join tow-in/warranty providers
 
                 </p>
